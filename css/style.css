@@ -1,0 +1,37 @@
+.slider h3,
+ .slider h5, 
+ .partners h3  {
+    text-shadow: 0px 0px 10px rgb(0, 0, 0, .8);
+}
+
+
+
+.parallax-container {
+    height: 30%;
+}
+
+.parallax img {
+    opacity: 0.8 !important;                        /*!important = karna gak jalan kemungkinann css materialize punya property yg sama, jadi nya bentrok biar css yg kita setting dipilih makanya make si '!imortant' di akhir sebelum titik koma*/
+}
+
+.partners img {
+    max-width: 200px;
+    margin-top: 20PX;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, .5));
+}
+
+.partners .dua {
+    margin-top: 25px;
+}
+
+.partners .tiga {
+    margin-top: -30px;
+}
+
+section, footer {
+    padding: 20px 0;
+}
+
+
+
+
